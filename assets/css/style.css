@@ -1,0 +1,12 @@
+body { background:#eef2f7; }
+.step { display:none; }
+.step.active { display:block; }
+.error { color:red; font-size:12px; }
+
+.progress { height: 12px; border-radius: 20px; overflow: hidden; background: #e0e0e0; }
+.progress-bar { background: linear-gradient(90deg, #0d6efd, #00c6ff); transition: width 0.4s ease; }
+
+.step-indicator { display:flex; justify-content:space-between; margin-bottom:15px; }
+.step-indicator span { font-size:12px; padding:5px 10px; border-radius:20px; background:#ddd; }
+.step-indicator .active { background:#0d6efd; color:#fff; }
+.step-indicator .completed { background:#198754; color:#fff; }
